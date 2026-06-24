@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Espressif MC Bluetooth</string>
+    <string name="drawer_menu">Навигация</string>
+    <string name="project_title">Espressif MC Bluetooth</string>
+    <string name="menu_metrics">Показатели микроклимата</string>
+    <string name="menu_relays">Управление реле</string>
+    <string name="menu_auto_mode">Параметры Auto Mode</string>
+    <string name="menu_presets">Предустановки Auto Mode</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="metric_temperature">Температура</string>
+    <string name="metric_air_humidity">Влажность воздуха</string>
+    <string name="metric_soil_humidity">Влажность почвы</string>
+    <string name="metric_light">Освещение</string>
+    <string name="metric_no_data">Нет данных</string>
+    <string name="metrics_title">Текущие показатели микроклимата</string>
+
+    <string name="relays_title">Управление реле</string>
+    <string name="save_relays">Изменить реле</string>
+    <string name="relay_fan">Вентилятор</string>
+    <string name="relay_pump">Помпа полива</string>
+    <string name="relay_lamp">Лампа</string>
+    <string name="relay_auto_mode">Автоматический режим</string>
+    <string name="relay_state">Состояние</string>
+    <string name="relay_state_on">Включено</string>
+    <string name="relay_state_off">Выключено</string>
+    <string name="relay_auto_on">Auto Mode включён</string>
+    <string name="relay_auto_off">Auto Mode выключен</string>
+    <string name="relay_manual_disabled">Ручное управление заблокировано, пока включён Auto Mode</string>
+    <string name="relay_key_label">Ключ реле: %1$s</string>
+
+    <string name="auto_mode_title">Параметры Auto Mode</string>
+    <string name="save_auto_mode">Применить параметры Auto Mode</string>
+    <string name="auto_mode_temperature_card">Температура</string>
+    <string name="auto_mode_light_card">Освещение</string>
+    <string name="auto_mode_soil_card">Влажность почвы</string>
+    <string name="auto_mode_temperature_min">Минимальная температура, °C</string>
+    <string name="auto_mode_temperature_max">Максимальная температура, °C</string>
+    <string name="auto_mode_light_min">Минимальная освещённость, lux</string>
+    <string name="auto_mode_light_max">Максимальная освещённость, lux</string>
+    <string name="auto_mode_soil_min">Минимальная влажность почвы, %</string>
+    <string name="auto_mode_light_threshold_mode">Режим пороговых значений</string>
+    <string name="auto_mode_light_schedule_mode">Режим по расписанию</string>
+    <string name="auto_mode_schedule_start">Начало освещения</string>
+    <string name="auto_mode_schedule_end">Окончание освещения</string>
+    <string name="auto_mode_hour">Часы</string>
+    <string name="auto_mode_minute">Минуты</string>
+    <string name="auto_mode_error_integer">Введите целое число</string>
+    <string name="auto_mode_error_temp_gap">Разница между температурными порогами должна быть минимум 2 °C</string>
+    <string name="auto_mode_error_temp_order">Минимальная температура не должна быть выше максимальной</string>
+    <string name="auto_mode_error_light_gap">Разница между порогами освещённости должна быть минимум 50 lux</string>
+    <string name="auto_mode_error_light_order">Минимальная освещённость не должна быть выше максимальной</string>
+    <string name="auto_mode_error_soil_range">Влажность почвы должна быть в диапазоне 0–100%</string>
+    <string name="auto_mode_error_fix_fields">Проверьте корректность заполнения полей</string>
+    <string name="auto_mode_mode_title">Режим управления освещением</string>
+
+    <string name="settings_theme_title">Тема приложения</string>
+    <string name="settings_theme_system">Как в системе</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+    <string name="settings_about">О программном обеспечении</string>
+    <string name="about_dialog_title">О программном обеспечении</string>
+    <string name="about_dialog_text">Android-приложение для автоматизированной системы управления микроклиматом.\nBluetooth-версия проекта для систем выращивания растений.\nПриложение создано студентом ОмГТУ кафедры АСОИУ группы ПЭ-211н.\nРазработчик: Кожанов Михаил Сергеевич.\nВерсия: 1.0.0</string>
+    <string name="about_dialog_close">Закрыть</string>
+
+    <string name="presets_apply">Применить для Auto Mode</string>
+    <string name="preset_temperature">Температура: %1$d–%2$d °C</string>
+    <string name="preset_soil_moisture">Влажность почвы: мин. %1$d%%</string>
+    <string name="preset_basil">Базилик</string>
+    <string name="preset_arugula">Руккола</string>
+    <string name="preset_lettuce">Салат</string>
+
+    <string name="connection_status_title">Статус подключения</string>
+    <string name="connection_status_connected">Подключено: %1$s</string>
+    <string name="connection_status_connecting">Подключение к ESP32…</string>
+    <string name="connection_status_disconnected">Нет подключения к ESP32</string>
+    <string name="connection_status_error">Ошибка подключения: %1$s</string>
+    <string name="connection_action_reconnect">Переподключиться</string>
+</resources>
